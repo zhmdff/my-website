@@ -1,0 +1,40 @@
+<!--================ Start About Us Area =================-->
+<section class="about_area section_gap">
+    <div class="container">
+        <div class="row justify-content-start align-items-center">
+            <div class="col-lg-5">
+                <div class="about_img">
+                    <img class="" src="img/about-us.png" alt="">
+                </div>
+            </div>
+
+            <div class="offset-lg-1 col-lg-5">
+                <div class="main_title text-left">
+                    <h2>let’s <br>
+                        Introduce about <br>
+                        myself</h2>
+                    <p>
+                        My name is Mahmud Ahmedov. I am <span id="age"></span> years old. I am from Azerbaijan. I started web development a year ago. 
+                        I have a Web Developer Certificate from Stimul Course.
+                    </p>
+
+                    <p>
+                        I have extensive knowledge of HTML, JavaScript, CSS, and PHP. Combined with my communication and problem-solving skills. 
+                        Although I did the web developer job as a hobby at first, I decided to take training and become a professional Web Developer. 
+                    </p>
+                    <a class="primary_btn" href="#"><span>Download CV</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--================ End About Us Area =================-->
+
+<script>
+    var birthYear = 2006; // Change this to your birth year
+    var currentYear = new Date().getFullYear();
+    var age = currentYear - birthYear;
+
+    // Update the span element with the calculated age
+    document.getElementById('age').textContent = age;
+</script>
